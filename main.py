@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Publish the finished front page for the make.fun news-image-20261122 v3 entry.
 
-The newspaper is typeset in newspaper.html and captured once at build time as
-entry.png (1024x1024, typeset text plus AI illustrations). This program copies
-that finished image into the output directory, so repeated runs are
-byte-identical and need no network access.
+The front page was typeset once at build time and the finished image
+(entry.png, 1024x1024, typeset text plus AI illustrations) is held in this
+repository. This program copies that finished image into the output
+directory, so repeated runs are byte-identical and need no network access.
 
 Usage:
     MAKEFUN_OUTPUT_DIR=out python3 main.py   # writes out/entry.png
